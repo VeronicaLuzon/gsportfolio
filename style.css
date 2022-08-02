@@ -1,0 +1,127 @@
+body{
+    height: 100vh;
+    margin: 0;
+    font-family: 'Zacbel X', 'Arial';
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+img {width: 100%;}
+
+#navbar{
+    background: #12A1AE;
+}
+
+#navbar a{
+    color: #FFFFD2;
+}
+
+#header1{
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+}
+
+.logo{
+    color: #FFFFD2;
+    font-weight: bold;
+}
+
+#navmain{
+    float: right;
+}
+
+#ulnav{
+    display: flex;
+}
+ #a_li{
+    display: block;
+    padding: 0 1em;
+ }
+
+ .icons{
+    display: none;
+ }
+
+ .main{
+    background: #17B3C1;
+    color: #FFFFD2;
+    display: grid;
+    text-align: center;
+    pad: 4em;
+ }
+
+ section{
+    padding: 4em 2em;
+    text-align: center;
+ }
+
+ #stitle{
+    color: #17B3C1;
+    font-weight: bold;
+    font-size: 1.7em;
+    margin-top:  -.4em;
+}
+
+#innersec{
+    color: #17B3C1;
+    margin-bottom: 3em;
+    font-size: 1.1em;
+    line-height: 1.8em;
+    font-weight: bold;
+}
+
+.skills{
+    background: #17B3C1;
+}
+
+.skill-container{
+    padding: 2em;
+    border-radius: 1em;
+    margin-bottom: 1em;
+}
+
+.skillbox{
+    border-radius: 1em;
+    margin-bottom: 1em;
+}
+
+.skill-container ul li{
+    background: white;
+    padding: 2em;
+    border-radius: 1em;
+    margin-bottom: 1em;
+}
+
+#phone1, #bazaar1{
+    height: 200px;
+    width: 200px;
+}
+
+.righttransition{
+    height: 350px;
+    width: 380px;
+}
+button{
+    height: 3em;
+    width: 6em;
+    border-radius: 1em;
+}
+
+
+@media only screen and (min-width: 800px){
+    #stitle, #innersec{
+        text-align: center;
+    }
+
+    .skills{
+        margin-top: -10em;
+    }
+}
